@@ -1,0 +1,89 @@
+#__________           ._____      __                      
+#\______   \ ____   __| _/  \    /  \_____ _______  ______Défendez votre lit
+# |    |  _// __ \ / __ |\   \/\/   /\__  \\_  __ \/  ___/
+# |    |   \  ___// /_/ | \        /  / __ \|  | \/\___ \ 
+# |______  /\___  >____ |  \__/\  /  (____  /__|  /____  >
+#        \/     \/     \/       \/        \/           \/ 
+#
+#
+#                   Developed By Upd4ting                   
+#                       Version: 0.1                   
+#                         lang.yml  
+
+
+# You can customize all the messages of the plugin
+# ALL THE MESSAGE CAN BE DISABLED BY PUTTING THE MESSAGE TO 'DISABLED'
+# WARNING: Inventory name cannot be longer than 32 character !
+
+# All gameplay message
+Gameplay:
+  join: '&b%p &6a rejoint la partie (%current/%max)'
+  leave: '&b%p &6a quitté la partie (%current/%max)'
+  leaveIngame: '&b%p &6a quitté la partie!'
+  rejoin: '&b%p &6rea rejoint la partie dans la temps!'
+  death: '&b%p &6est mort!'
+  deathByPlayer: '&b%p a été tué par &4%k'
+  joinSpec: '&6Vous êtes maintenant en mode spectateur!'
+  itemReturnLobby: '&6Retour au Lobby'
+  gameStart: '&6La partie a commencé!'
+  gameTimeStart: '&6Début de la partie dans %t secondes'
+  teamWin: '&eJoueurs: %winners a gagné!'
+  playerWin: '&e%p a gagné!'
+  spectatorTp: '&4Merci de ne pas vous éloigné de trop des joueurs!'
+  noEnoughPlayer: '&4Il n''y à pas assez de joueur pour commencé la partie!'
+  leaderboard: '&7------&4Leaderboard&7------'
+  revived: '&4Vous avez respawn!'
+  gameConfigure: '&4La partie doit être configuré avant de pouvoir l''utilisé!'
+  bedDestroyedTitle: '&4Votre lit a été détruit!'
+  bedDestroyedTitle2: '&7Vous ne pourrait plus respawn!'
+  bedDestroyed: '&4Le lit de la team %team &4a été detruit par &4%player'
+  bedHelp: '&4Défendez votre lit!'
+  bedHelpDestroyed: '&4Lit détruit par &6%player'
+  finalKill: '&l&eKILL FINAL'
+  respawn: '&7Respawn dans &4%second &7secondes'
+  cantDestroyOwnBed: '&4Vous ne pouvait pas détruire votre propre lit!'
+
+# All team message
+Team:
+  joinTeam: '&b%p a rejoint votre team!'
+  leaveTeam: '&b%p a quitté votre team!'
+  teamFull: '&4Team complète!'
+  nameMenu: '&8Séléction  Team'
+  nameItem: '&6Séléctionner une Team'
+
+# All MOTD translation
+Motd:
+  config: 'La partie et en cours de configuration'
+  waiting: 'Attente'
+  ingame: 'En jeu'
+  finished: 'Fin'
+
+# All kick message translation
+Kick:
+  gameStarted: '&4La partie a commencé!'
+  gameFinished: '&4La partie et terminé!'
+  gameFull: '&4La partie et complète!'
+
+# Translation for Stat command
+StatCommand:
+  playerNotExist: '&4Le joueur n''est pas en ligne!'
+  usage: '&6Usage: &7/stat <pseudo>'
+  info:
+    - '&7====== &e%name''s stats &7======'
+    - '&6Kill: &4%kill'
+    - '&6Morts: &4%death'
+    - '&6Gagner: &4%win'
+    - '&6Perdu: &4%lose'
+    - '&6Partie joué: &4%gamePlayed'
+
+# Translation for shop
+Shop:
+  nameMenu: "&6Shop"
+  nameMenuCat: "&6Catégorie: &4%name"
+
+# Translation for special generator
+SpecialGenerator:
+  line1: '%tiers'
+  line2: '%name'
+  line3: 'Spawn dans %second secondes'
+  upgraded: '&eGénérateur &4%name &ea été augmenté à %tiers'
